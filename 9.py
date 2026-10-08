@@ -20,20 +20,20 @@
 
 data = {"tech":"python", "year":1991}
 
-# print(type(data))
-# data["year"] = 2001
-# data["version"] = 3.15
-# data.update({"author":"guido", "name":"monthy"})
-# data.pop("tech")
-# data.clear()
-# del data
-# print(data)
+print(type(data))
+data["year"] = 2001
+data["version"] = 3.15
+data.update({"author":"guido", "name":"monthy"})
+data.pop("tech")
+data.clear()
+del data
+print(data)
 
-# for val in data.values():
-#     print(val)
+for val in data.values():
+    print(val)
     
-# for key in data.keys():
-#     print(key)
+for key in data.keys():
+    print(key)
     
 for key,val in data.items():
     print(f"{key} = {val}")
